@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #4c9195;
+    color: #1a202c;
+  }
+
+
+  
+  a {
+    @apply text-primary hover:underline;
+  }
+}
