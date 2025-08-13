@@ -8,7 +8,7 @@ import BookCall from '../pages/BookCall.vue'
 import AIAuditOffer from '../pages/AIAudit.vue'  // <-- Import your new page
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', name: 'Home', component: Home },
   { path: '/services', component: Services },
   { path: '/case-studies', component: CaseStudies },
   { path: '/about', component: About },
