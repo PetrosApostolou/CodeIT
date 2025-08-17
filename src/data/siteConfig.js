@@ -46,7 +46,7 @@ export default {
      {
       id: 1,
       title: 'Enhancing Food Safety with AI-Driven Inspection',
-      client: 'Minnesota-based food processing facility',
+      client: 'Food processing facility',
       category: 'Food Processing',
       challenge: 'Existing manual inspection processes struggled to detect subtle contaminants and inconsistencies, risking product recalls and compliance issues.',
       solution: 'Implemented an AI-powered vision inspection system integrated with high-speed cameras and real-time alerts, tailored to FDA and USDA guidelines.',
@@ -77,7 +77,7 @@ export default {
     {
       id: 4,
       title: 'Streamlining Compliance & Documentation with LLM-Powered Workflow Automation',
-      client: 'Twin Cities-based medical manufacturing company',
+      client: 'Medical manufacturing company',
       category: 'Operational Workflows',
       challenge: 'Regulatory reporting and internal audits required extensive manual review of production logs, slowing down compliance processes and increasing the risk of costly errors.',
       solution: 'Developed a Large Language Model-powered workflow automation system that automatically extracts key data from production logs, summarizes deviations, and drafts preliminary FDA/ISO compliance reports. Integrated with existing ERP systems for seamless operation.',
