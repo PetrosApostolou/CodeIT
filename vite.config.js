@@ -11,6 +11,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: './',    // Use './' for relative paths, works well with GitHub Pages
+  base: '/CodeIT/',    // Use './' for relative paths, works well with GitHub Pages
   plugins: [vue()],
 })
