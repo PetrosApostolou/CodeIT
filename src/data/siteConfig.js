@@ -29,7 +29,7 @@ export default {
     },
     {
       title: 'Advanced Programming Bootcamps',
-      bullets: ['Artificial Intelligence for Everyone', 'Functional Programming is Power', 'Intro to Algorithms for Students']
+      bullets: ['Artificial Intelligence for Everyone', 'Functional Programming is Power', 'Introduction to Algorithms']
     },
     {
       title: 'Consultation, Mentoring & Troubleshooting',
