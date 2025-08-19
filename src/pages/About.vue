@@ -46,7 +46,7 @@
       <!-- Right Headshot -->
       <div class="relative group">
         <img
-          src="../assets/images/pro.jpg"
+          src="../assets/images/Petros.jpg"
           alt="Petros Apostolou"
           class="rounded-2xl shadow-xl w-full h-auto object-cover transform transition group-hover:scale-105 group-hover:shadow-2xl"
         />
