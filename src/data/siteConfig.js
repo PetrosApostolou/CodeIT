@@ -3,9 +3,10 @@ export default {
   tagline: 'Transforming Data into Decisions. Automating the Future.',
   contact: {
     name: 'Petros Apostolou',
-    email: 'trs.apostolou@gmail.com',
-    phone: '(612) 461-8753 ',
-    website: 'http://localhost:5173',
+    email: 'petros@codeitllc.com',
+    phone: '(612) 461-8753',
+    //website: 'http://localhost:5173',
+    webiste: 'http://www.codeitllc.com',
     linkedin: 'https://www.linkedin.com/in/petros-apostolou/',
   },
   calendlyUrl: 'https://calendly.com/trs-apostolou/30min', // replace with your Calendly link

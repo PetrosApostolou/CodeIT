@@ -12,7 +12,6 @@
           Hi, I’m 
           <span class="text-blue-600">{{ config.contact.name }}</span>.
         </h3>
-
         <p class="mb-6 text-gray-700 leading-relaxed">
           I’m an AI specialist, data scientist, and computational modeling expert with a passion
           for turning ideas into working systems. With two master’s degrees in Computer Science – AI and Computational
