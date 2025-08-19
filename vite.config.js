@@ -6,11 +6,9 @@ const isGithubPages = !!process.env.GITHUB_REPOSITORY
 const repoName = isGithubPages ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/` : '/'
 
 export default defineConfig({
-  base: repoName,      // Correctly sets relative paths for assets
+  base: './',       // Use relative paths for GitHub Pages
   plugins: [vue()],
   build: {
-    outDir: 'dist',     // default, you can customize
+    outDir: 'dist',  // Default output folder
   }
 })
-
-
