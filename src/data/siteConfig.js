@@ -5,8 +5,7 @@ export default {
     name: 'Petros Apostolou',
     email: 'petros@codeitllc.com',
     phone: '(612) 461-8753',
-    //website: 'http://localhost:5173',
-    webiste: 'http://www.codeitllc.com',
+    website: 'http://localhost:5173',
     linkedin: 'https://www.linkedin.com/in/petros-apostolou/',
   },
   calendlyUrl: 'https://calendly.com/trs-apostolou/30min', // replace with your Calendly link
