@@ -58,18 +58,27 @@ export default {
       required: true,
     },
   },
+
   computed: {
     category() {
       const title = this.caseStudy.title.toLowerCase()
-      const solution = this.caseStudy.solution.toLowerCase()
 
-      if (title.includes('sports')) return 'Sports & Rehabilitation'
-      if (title.includes('surgical')) return 'Medical Devices'
-      if (title.includes('food')) return 'Food Processing'
-      if (title.includes('workflow') || solution.includes('workflow'))
-        return 'Operational Workflows'
+      // Keyword to category mapping
+      const categoryMap = [
+        { keywords: ['human', 'monitoring'], category: 'Healthcare & Wellness' },
+        { keywords: ['assessment'], category: 'Human Assessments' },
+        { keywords: ['monitoring'], category: 'Real-Time Monitoring' },
+        { keywords: ['high-performance'], category: 'High Performance Computing (HPC)' }
+      ]
+
+      for (const map of categoryMap) {
+        if (map.keywords.every(kw => title.includes(kw))) {
+          return map.category
+        }
+      }
+
       return 'Other'
-    },
-  },
+    }
+  }
 }
 </script>
